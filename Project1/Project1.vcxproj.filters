@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{9400cea1-d121-44b3-bafe-537bfa9dfd32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SetupThings">
+      <UniqueIdentifier>{cbc6afd7-4e82-4f57-bfb9-550918a0e5fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SetupThings\Camera">
+      <UniqueIdentifier>{f7a03e0a-8e8a-46ce-8f89-4186603f66fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SetupThings\SkyBox">
+      <UniqueIdentifier>{74345b3b-240d-4be7-a0da-ce774be4e662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Sea">
+      <UniqueIdentifier>{73d6ba2e-6753-41fa-8f05-ceea43b50410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\SkyBox">
+      <UniqueIdentifier>{67b76d59-9448-491d-a5eb-e6de90917ec1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Sea\HeightPlay">
+      <UniqueIdentifier>{795fe0e9-5d01-4925-b5c2-4430807548c9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\OpenGLStuff\src\glad.c">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ImpPant.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="SeaMesh.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\SkyBox\SkyBoxC.cpp">
+      <Filter>SetupThings\SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImpPant.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Shadern.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\Camera.h">
+      <Filter>SetupThings\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="SeaMesh.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\SkyBox\SkyBoxC.h">
+      <Filter>SetupThings\SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\shader.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\shader.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\SkyBox\SkyBox.fs">
+      <Filter>Shaders\SkyBox</Filter>
+    </None>
+    <None Include="Shaders\SkyBox\SkyBox.vs">
+      <Filter>Shaders\SkyBox</Filter>
+    </None>
+    <None Include="Shaders\Sea\HeightPlay\SeaHeight.fs">
+      <Filter>Shaders\Sea\HeightPlay</Filter>
+    </None>
+    <None Include="Shaders\Sea\HeightPlay\SeaHeight.vs">
+      <Filter>Shaders\Sea\HeightPlay</Filter>
+    </None>
+    <None Include="Shaders\Sea\sea.vs">
+      <Filter>Shaders\Sea</Filter>
+    </None>
+    <None Include="Shaders\Sea\sea.fs">
+      <Filter>Shaders\Sea</Filter>
+    </None>
+  </ItemGroup>
+</Project>
